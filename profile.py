@@ -8,6 +8,7 @@ def own_information(name, age, phone_number, email, post_index, address, other_i
   elif 2 <= age % 10 <= 4: years = 'года'
   else: years = 'лет'
   print('Имя: ', name)
+  print('Фамилия: ', surname)
   print('Возраст : ', age, years)
   print('Номер телефона: ', phone_number)
   print('Email: ', email)
@@ -54,6 +55,7 @@ while True:
     option = int(input('\nВведите номер пункта меню: '))
     if option == 1:
       name = input('Введите имя: ')
+      surname = input('Введите фамилию: ')
       while age <= 0:
         age = int(input('Введите возраст: '))
         if age < 0:
