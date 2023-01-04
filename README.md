@@ -1,2 +1,2 @@
-# Profile_bisness_version
+# Profile_busines_version
 repository for training
