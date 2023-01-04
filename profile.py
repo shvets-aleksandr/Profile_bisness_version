@@ -84,7 +84,7 @@ while True:
       correspondent_account = int(input('Корреспондентский счёт: '))
     else: print('Введите корректный пункт меню')
   elif main_option == 2:
-    print('=' * 40)
+    print('=' * 60)
     print('ВЫВЕСТИ ИНФОРМАЦИЮ')
     print('1 - Личная информация')
     print('2 - Вся информация')
