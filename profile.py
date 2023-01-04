@@ -8,7 +8,7 @@ def own_information(name, age, phone_number, email, post_index, address, other_i
   elif 2 <= age % 10 <= 4: years = 'года'
   else: years = 'лет'
   print('Имя: ', name)
-  print('Возраст: ', age, years)
+  print('Возраст : ', age, years)
   print('Номер телефона: ', phone_number)
   print('Email: ', email)
   print('Индекс: ', replaced)
@@ -19,7 +19,7 @@ def business_information(ogrnip, inn, bank_account, bank, bik, correspondent_acc
   print('\nИнформация о предпринимателе')
   print('ОГРНИП: ', ogrnip)
   print('ИНН: ', inn)
-  print('Банковские реквизиты')
+  print('Банковские реквизиты для перевода: ')
   print('Р/c: ', bank_account)
   print('Банк: ', bank)
   print('Бик: ', bik)
@@ -36,7 +36,7 @@ print('Приложение MyProfile Business version')
 print('Сохраняй информацию о себе и выводи ее в разных форматах') 
 
 while True:
-  print('=' * 40)
+  print('=' * 60)
   print('ГЛАВНОЕ МЕНЮ')
   print('1 - Ввести или обновить информацию')
   print('2 - Вывести информацию')
