@@ -99,4 +99,4 @@ while True:
       business_information(ogrnip, inn, bank_account, bank, bik, correspondent_account)
     else: print('\nВведите корректный пункт меню')
   else:      
-    print('\nВведите правильный пункт меню.')
+    print('\nВведите правильный отрезок меню.')
